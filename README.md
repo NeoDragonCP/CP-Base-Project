@@ -1,4 +1,4 @@
-# CP-Base-Project
+# CP Base Project
 Learn to create your own 2D game using this prohect as your base.
 Powered by Cocos2D v3.4, the project will compile for iOS, Mac OS, and Android.
 
