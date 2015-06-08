@@ -49,6 +49,7 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
+		D14D7AF51B25C639000C85BB /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = D14D7AF41B25C639000C85BB /* AppIcon.iconset */; };
 		D1E483691B2335EE004ECAA2 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E483681B2335EE004ECAA2 /* TestScene.m */; };
 		D1E4836A1B2335EE004ECAA2 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E483681B2335EE004ECAA2 /* TestScene.m */; };
 		D1E4836B1B2335EE004ECAA2 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E483681B2335EE004ECAA2 /* TestScene.m */; };
@@ -232,6 +233,7 @@
 		BC5399D51A44DCC90063F482 /* GLActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLActivityKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/GLActivityKit.framework"; sourceTree = "<group>"; };
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
+		D14D7AF41B25C639000C85BB /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = AppIcon.iconset; sourceTree = "<group>"; };
 		D1E483671B2335EE004ECAA2 /* TestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScene.h; sourceTree = "<group>"; };
 		D1E483681B2335EE004ECAA2 /* TestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScene.m; sourceTree = "<group>"; };
 		D1E483711B23367C004ECAA2 /* Import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Import.h; sourceTree = "<group>"; };
@@ -448,6 +450,7 @@
 		7A40366419DDF8DB007B6E8F /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				D14D7AF41B25C639000C85BB /* AppIcon.iconset */,
 				7A40360219DDEE84007B6E8F /* Info.plist */,
 				7A59498A19E38E4A00F65F90 /* MainMenu.xib */,
 			);
@@ -787,6 +790,7 @@
 				D1E483CC1B2337F2004ECAA2 /* Icon.png in Resources */,
 				D1E483AB1B2337F2004ECAA2 /* Icon-60@3x.png in Resources */,
 				D1E483BD1B2337F2004ECAA2 /* Icon-60.png in Resources */,
+				D14D7AF51B25C639000C85BB /* AppIcon.iconset in Resources */,
 				D1E483851B23379B004ECAA2 /* bg01.png in Resources */,
 				D1E483DB1B2337F2004ECAA2 /* Default-Landscape~ipad.png in Resources */,
 				D1E483A51B2337F2004ECAA2 /* Icon-40@3x.png in Resources */,

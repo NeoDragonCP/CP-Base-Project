@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.cocos2d.CPMessProject</string>
 	<key>CFBundleInfoDictionaryVersion</key>
