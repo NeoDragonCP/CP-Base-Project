@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "927F6198196C771E000F43EF"
-               BuildableName = "CPMessProject2 Android.app"
-               BlueprintName = "CPMessProject2 Android"
-               ReferencedContainer = "container:CPMessProject2.xcodeproj">
+               BlueprintIdentifier = "7A4035FE19DDEE84007B6E8F"
+               BuildableName = "CP Base Project Mac.app"
+               BlueprintName = "CP Base Project Mac"
+               ReferencedContainer = "container:CP Base Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "927F6198196C771E000F43EF"
-            BuildableName = "CPMessProject2 Android.app"
-            BlueprintName = "CPMessProject2 Android"
-            ReferencedContainer = "container:CPMessProject2.xcodeproj">
+            BlueprintIdentifier = "7A4035FE19DDEE84007B6E8F"
+            BuildableName = "CP Base Project Mac.app"
+            BlueprintName = "CP Base Project Mac"
+            ReferencedContainer = "container:CP Base Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "927F6198196C771E000F43EF"
-            BuildableName = "CPMessProject2 Android.app"
-            BlueprintName = "CPMessProject2 Android"
-            ReferencedContainer = "container:CPMessProject2.xcodeproj">
+            BlueprintIdentifier = "7A4035FE19DDEE84007B6E8F"
+            BuildableName = "CP Base Project Mac.app"
+            BlueprintName = "CP Base Project Mac"
+            ReferencedContainer = "container:CP Base Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "927F6198196C771E000F43EF"
-            BuildableName = "CPMessProject2 Android.app"
-            BlueprintName = "CPMessProject2 Android"
-            ReferencedContainer = "container:CPMessProject2.xcodeproj">
+            BlueprintIdentifier = "7A4035FE19DDEE84007B6E8F"
+            BuildableName = "CP Base Project Mac.app"
+            BlueprintName = "CP Base Project Mac"
+            ReferencedContainer = "container:CP Base Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
                BuildableName = "CPMessProject2.app"
-               BlueprintName = "CPMessProject2 iOS"
-               ReferencedContainer = "container:CPMessProject2.xcodeproj">
+               BlueprintName = "CP Base Project iOS"
+               ReferencedContainer = "container:CP Base Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
             BuildableName = "CPMessProject2.app"
-            BlueprintName = "CPMessProject2 iOS"
-            ReferencedContainer = "container:CPMessProject2.xcodeproj">
+            BlueprintName = "CP Base Project iOS"
+            ReferencedContainer = "container:CP Base Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
             BuildableName = "CPMessProject2.app"
-            BlueprintName = "CPMessProject2 iOS"
-            ReferencedContainer = "container:CPMessProject2.xcodeproj">
+            BlueprintName = "CP Base Project iOS"
+            ReferencedContainer = "container:CP Base Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B77F1B2D17B978D7009739AE"
             BuildableName = "CPMessProject2.app"
-            BlueprintName = "CPMessProject2 iOS"
-            ReferencedContainer = "container:CPMessProject2.xcodeproj">
+            BlueprintName = "CP Base Project iOS"
+            ReferencedContainer = "container:CP Base Project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
