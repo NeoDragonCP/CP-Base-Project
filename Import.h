@@ -8,14 +8,6 @@
 #endif
 
 
-//#import <Parse/Parse.h>
-
-/*
- #import <StoreKit/StoreKit.h>   // for IAP
- #import "SFHFKeychainUtils.h"
- #import <Security/Security.h>
- */
-
 // -----------------------------------------------------------------------
 // *** Cocos2D ***
 // -----------------------------------------------------------------------
