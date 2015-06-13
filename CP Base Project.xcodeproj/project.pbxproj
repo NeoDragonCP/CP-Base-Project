@@ -19,7 +19,6 @@
 		7A4036F219DE3F9E007B6E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		7A4036F319DE3FA0007B6E8F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		7A4036F519DE3FA8007B6E8F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4036F419DE3FA8007B6E8F /* AppKit.framework */; };
-		7A4036F619DE3FFC007B6E8F /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
 		7A59493B19E37F9300F65F90 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A59493A19E37F9300F65F90 /* OpenGL.framework */; };
 		7A59493D19E37FB200F65F90 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A59493C19E37FB200F65F90 /* libz.dylib */; };
 		7A59498B19E38E4A00F65F90 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A59498A19E38E4A00F65F90 /* MainMenu.xib */; };
@@ -32,7 +31,6 @@
 		927F61A9196C771E000F43EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		927F61AA196C771E000F43EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		927F61AB196C771E000F43EF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
-		B737893B180761570076A88C /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
 		B73789871807631A0076A88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73789851807631A0076A88C /* main.m */; };
 		B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3117B978D7009739AE /* QuartzCore.framework */; };
 		B77F1B3417B978D7009739AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3317B978D7009739AE /* OpenGLES.framework */; };
@@ -43,13 +41,27 @@
 		B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
-		B78A0B10198AF87200C63841 /* Published-Android in Resources */ = {isa = PBXBuildFile; fileRef = B78A0B0F198AF87200C63841 /* Published-Android */; };
 		BC5399D81A44DCC90063F482 /* AndroidKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D31A44DCC90063F482 /* AndroidKit.framework */; };
 		BC5399D91A44DCC90063F482 /* CoreJava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D41A44DCC90063F482 /* CoreJava.framework */; };
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
 		D14D7AF51B25C639000C85BB /* AppIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = D14D7AF41B25C639000C85BB /* AppIcon.iconset */; };
+		D16141861B2CDA4F00272525 /* configCocos2d.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141811B2CDA4F00272525 /* configCocos2d.plist */; };
+		D16141871B2CDA4F00272525 /* configCocos2d.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141811B2CDA4F00272525 /* configCocos2d.plist */; };
+		D16141881B2CDA4F00272525 /* configCocos2d.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141811B2CDA4F00272525 /* configCocos2d.plist */; };
+		D16141891B2CDA4F00272525 /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141821B2CDA4F00272525 /* fileLookup.plist */; };
+		D161418A1B2CDA4F00272525 /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141821B2CDA4F00272525 /* fileLookup.plist */; };
+		D161418B1B2CDA4F00272525 /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141821B2CDA4F00272525 /* fileLookup.plist */; };
+		D161418C1B2CDA4F00272525 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D16141831B2CDA4F00272525 /* MainScene.ccbi */; };
+		D161418D1B2CDA4F00272525 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D16141831B2CDA4F00272525 /* MainScene.ccbi */; };
+		D161418E1B2CDA4F00272525 /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = D16141831B2CDA4F00272525 /* MainScene.ccbi */; };
+		D161418F1B2CDA4F00272525 /* spriteFrameFileList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141841B2CDA4F00272525 /* spriteFrameFileList.plist */; };
+		D16141901B2CDA4F00272525 /* spriteFrameFileList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141841B2CDA4F00272525 /* spriteFrameFileList.plist */; };
+		D16141911B2CDA4F00272525 /* spriteFrameFileList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D16141841B2CDA4F00272525 /* spriteFrameFileList.plist */; };
+		D16141921B2CDA4F00272525 /* Strings.ccbLang in Resources */ = {isa = PBXBuildFile; fileRef = D16141851B2CDA4F00272525 /* Strings.ccbLang */; };
+		D16141931B2CDA4F00272525 /* Strings.ccbLang in Resources */ = {isa = PBXBuildFile; fileRef = D16141851B2CDA4F00272525 /* Strings.ccbLang */; };
+		D16141941B2CDA4F00272525 /* Strings.ccbLang in Resources */ = {isa = PBXBuildFile; fileRef = D16141851B2CDA4F00272525 /* Strings.ccbLang */; };
 		D1E483691B2335EE004ECAA2 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E483681B2335EE004ECAA2 /* TestScene.m */; };
 		D1E4836A1B2335EE004ECAA2 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E483681B2335EE004ECAA2 /* TestScene.m */; };
 		D1E4836B1B2335EE004ECAA2 /* TestScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E483681B2335EE004ECAA2 /* TestScene.m */; };
@@ -210,7 +222,6 @@
 		7BF6AF9F1A425F9800FFF9BA /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../../../../Library/SBAndroid/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		927F61BF196C771E000F43EF /* CP Base Project Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CP Base Project Android.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B737893A180761570076A88C /* Published-iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Published-iOS"; path = "Source/Resources/Published-iOS"; sourceTree = SOURCE_ROOT; };
 		B737893D1807617C0076A88C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/Platforms/iOS/AppDelegate.h; sourceTree = "<group>"; };
 		B737893E1807617C0076A88C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/Platforms/iOS/AppDelegate.m; sourceTree = "<group>"; };
 		B7378940180761A80076A88C /* cocos2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d.xcodeproj; path = "Source/libs/cocos2d-iphone/cocos2d.xcodeproj"; sourceTree = SOURCE_ROOT; };
@@ -226,7 +237,6 @@
 		B77F1B3D17B978D7009739AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B77F1B3F17B978D7009739AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B77F1B4117B978D7009739AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		B78A0B0F198AF87200C63841 /* Published-Android */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Published-Android"; sourceTree = "<group>"; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
 		BC5399D31A44DCC90063F482 /* AndroidKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AndroidKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/AndroidKit.framework"; sourceTree = "<group>"; };
 		BC5399D41A44DCC90063F482 /* CoreJava.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreJava.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/CoreJava.framework"; sourceTree = "<group>"; };
@@ -234,6 +244,11 @@
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		D14D7AF41B25C639000C85BB /* AppIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = AppIcon.iconset; sourceTree = "<group>"; };
+		D16141811B2CDA4F00272525 /* configCocos2d.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configCocos2d.plist; sourceTree = "<group>"; };
+		D16141821B2CDA4F00272525 /* fileLookup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fileLookup.plist; sourceTree = "<group>"; };
+		D16141831B2CDA4F00272525 /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = MainScene.ccbi; sourceTree = "<group>"; };
+		D16141841B2CDA4F00272525 /* spriteFrameFileList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = spriteFrameFileList.plist; sourceTree = "<group>"; };
+		D16141851B2CDA4F00272525 /* Strings.ccbLang */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Strings.ccbLang; sourceTree = "<group>"; };
 		D1E483671B2335EE004ECAA2 /* TestScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScene.h; sourceTree = "<group>"; };
 		D1E483681B2335EE004ECAA2 /* TestScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScene.m; sourceTree = "<group>"; };
 		D1E483711B23367C004ECAA2 /* Import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Import.h; sourceTree = "<group>"; };
@@ -611,11 +626,14 @@
 		D1E483781B23376A004ECAA2 /* Generic (Icons and Platform images) */ = {
 			isa = PBXGroup;
 			children = (
+				D16141811B2CDA4F00272525 /* configCocos2d.plist */,
+				D16141821B2CDA4F00272525 /* fileLookup.plist */,
+				D16141831B2CDA4F00272525 /* MainScene.ccbi */,
+				D16141841B2CDA4F00272525 /* spriteFrameFileList.plist */,
+				D16141851B2CDA4F00272525 /* Strings.ccbLang */,
 				7A40366119DDF8C2007B6E8F /* Platforms */,
 				5B12100D197483EE004C1E1D /* res */,
 				B73789911807667A0076A88C /* Icons */,
-				B737893A180761570076A88C /* Published-iOS */,
-				B78A0B0F198AF87200C63841 /* Published-Android */,
 			);
 			name = "Generic (Icons and Platform images)";
 			sourceTree = "<group>";
@@ -771,11 +789,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D161418B1B2CDA4F00272525 /* fileLookup.plist in Resources */,
 				D1E483C61B2337F2004ECAA2 /* Icon-Small-50.png in Resources */,
+				D161418E1B2CDA4F00272525 /* MainScene.ccbi in Resources */,
 				D1E483821B23379B004ECAA2 /* CPBadge.png in Resources */,
 				D1E483C91B2337F2004ECAA2 /* Icon-Small-50@2x.png in Resources */,
 				7A59498B19E38E4A00F65F90 /* MainMenu.xib in Resources */,
 				D1E483C31B2337F2004ECAA2 /* Icon-72@2x.png in Resources */,
+				D16141941B2CDA4F00272525 /* Strings.ccbLang in Resources */,
 				D1E483CF1B2337F2004ECAA2 /* Icon@2x.png in Resources */,
 				D1E4839F1B2337F2004ECAA2 /* Icon-40.png in Resources */,
 				D1E483BA1B2337F2004ECAA2 /* Icon-Small@3x.png in Resources */,
@@ -786,6 +807,7 @@
 				D1E483E11B2337F2004ECAA2 /* Default@2x.png in Resources */,
 				D1E483A21B2337F2004ECAA2 /* Icon-40@2x.png in Resources */,
 				D1E483A81B2337F2004ECAA2 /* Icon-60@2x.png in Resources */,
+				D16141911B2CDA4F00272525 /* spriteFrameFileList.plist in Resources */,
 				D1E483AE1B2337F2004ECAA2 /* Icon-76.png in Resources */,
 				D1E483CC1B2337F2004ECAA2 /* Icon.png in Resources */,
 				D1E483AB1B2337F2004ECAA2 /* Icon-60@3x.png in Resources */,
@@ -795,9 +817,9 @@
 				D1E483DB1B2337F2004ECAA2 /* Default-Landscape~ipad.png in Resources */,
 				D1E483A51B2337F2004ECAA2 /* Icon-40@3x.png in Resources */,
 				D1E483D51B2337F2004ECAA2 /* iTunesArtwork@2x.png in Resources */,
+				D16141881B2CDA4F00272525 /* configCocos2d.plist in Resources */,
 				D1E483B11B2337F2004ECAA2 /* Icon-76@2x.png in Resources */,
 				D1E483C01B2337F2004ECAA2 /* Icon-72.png in Resources */,
-				7A4036F619DE3FFC007B6E8F /* Published-iOS in Resources */,
 				D1E483D81B2337F2004ECAA2 /* Default-568h@2x.png in Resources */,
 				D1E483B71B2337F2004ECAA2 /* Icon-Small@2x.png in Resources */,
 			);
@@ -809,7 +831,6 @@
 			files = (
 				D1E483811B23379B004ECAA2 /* CPBadge.png in Resources */,
 				D1E4837B1B233788004ECAA2 /* OLNEY-LI.ttf in Resources */,
-				B78A0B10198AF87200C63841 /* Published-Android in Resources */,
 				D1E483E01B2337F2004ECAA2 /* Default@2x.png in Resources */,
 				D1E483C51B2337F2004ECAA2 /* Icon-Small-50.png in Resources */,
 				D1E483A11B2337F2004ECAA2 /* Icon-40@2x.png in Resources */,
@@ -820,16 +841,21 @@
 				D1E483C21B2337F2004ECAA2 /* Icon-72@2x.png in Resources */,
 				D1E483BC1B2337F2004ECAA2 /* Icon-60.png in Resources */,
 				D1E483C81B2337F2004ECAA2 /* Icon-Small-50@2x.png in Resources */,
+				D161418A1B2CDA4F00272525 /* fileLookup.plist in Resources */,
 				D1E483B61B2337F2004ECAA2 /* Icon-Small@2x.png in Resources */,
 				D1E483B01B2337F2004ECAA2 /* Icon-76@2x.png in Resources */,
 				D1E483A41B2337F2004ECAA2 /* Icon-40@3x.png in Resources */,
+				D16141931B2CDA4F00272525 /* Strings.ccbLang in Resources */,
 				D1E483DA1B2337F2004ECAA2 /* Default-Landscape~ipad.png in Resources */,
 				D1E483CB1B2337F2004ECAA2 /* Icon.png in Resources */,
 				D1E483AA1B2337F2004ECAA2 /* Icon-60@3x.png in Resources */,
+				D16141871B2CDA4F00272525 /* configCocos2d.plist in Resources */,
 				D1E483B31B2337F2004ECAA2 /* Icon-Small.png in Resources */,
+				D16141901B2CDA4F00272525 /* spriteFrameFileList.plist in Resources */,
 				D1E483AD1B2337F2004ECAA2 /* Icon-76.png in Resources */,
 				D1E483CE1B2337F2004ECAA2 /* Icon@2x.png in Resources */,
 				D1E4839E1B2337F2004ECAA2 /* Icon-40.png in Resources */,
+				D161418D1B2CDA4F00272525 /* MainScene.ccbi in Resources */,
 				D1E483BF1B2337F2004ECAA2 /* Icon-72.png in Resources */,
 				D1E483B91B2337F2004ECAA2 /* Icon-Small@3x.png in Resources */,
 				D1E483A71B2337F2004ECAA2 /* Icon-60@2x.png in Resources */,
@@ -843,7 +869,6 @@
 			files = (
 				D1E483801B23379B004ECAA2 /* CPBadge.png in Resources */,
 				D1E4837A1B233788004ECAA2 /* OLNEY-LI.ttf in Resources */,
-				B737893B180761570076A88C /* Published-iOS in Resources */,
 				D1E483DF1B2337F2004ECAA2 /* Default@2x.png in Resources */,
 				D1E483C41B2337F2004ECAA2 /* Icon-Small-50.png in Resources */,
 				D1E483A01B2337F2004ECAA2 /* Icon-40@2x.png in Resources */,
@@ -854,16 +879,21 @@
 				D1E483C11B2337F2004ECAA2 /* Icon-72@2x.png in Resources */,
 				D1E483BB1B2337F2004ECAA2 /* Icon-60.png in Resources */,
 				D1E483C71B2337F2004ECAA2 /* Icon-Small-50@2x.png in Resources */,
+				D16141891B2CDA4F00272525 /* fileLookup.plist in Resources */,
 				D1E483B51B2337F2004ECAA2 /* Icon-Small@2x.png in Resources */,
 				D1E483AF1B2337F2004ECAA2 /* Icon-76@2x.png in Resources */,
 				D1E483A31B2337F2004ECAA2 /* Icon-40@3x.png in Resources */,
+				D16141921B2CDA4F00272525 /* Strings.ccbLang in Resources */,
 				D1E483D91B2337F2004ECAA2 /* Default-Landscape~ipad.png in Resources */,
 				D1E483CA1B2337F2004ECAA2 /* Icon.png in Resources */,
 				D1E483A91B2337F2004ECAA2 /* Icon-60@3x.png in Resources */,
+				D16141861B2CDA4F00272525 /* configCocos2d.plist in Resources */,
 				D1E483B21B2337F2004ECAA2 /* Icon-Small.png in Resources */,
+				D161418F1B2CDA4F00272525 /* spriteFrameFileList.plist in Resources */,
 				D1E483AC1B2337F2004ECAA2 /* Icon-76.png in Resources */,
 				D1E483CD1B2337F2004ECAA2 /* Icon@2x.png in Resources */,
 				D1E4839D1B2337F2004ECAA2 /* Icon-40.png in Resources */,
+				D161418C1B2CDA4F00272525 /* MainScene.ccbi in Resources */,
 				D1E483BE1B2337F2004ECAA2 /* Icon-72.png in Resources */,
 				D1E483B81B2337F2004ECAA2 /* Icon-Small@3x.png in Resources */,
 				D1E483A61B2337F2004ECAA2 /* Icon-60@2x.png in Resources */,
