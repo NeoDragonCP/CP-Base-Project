@@ -43,6 +43,7 @@
   CCScene *StartScene = (CCScene *) [TestScene scene];
 
     [director runWithScene:StartScene];
+  
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification

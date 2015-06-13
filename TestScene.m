@@ -58,6 +58,7 @@
   
   // Add a label to background itself as a child
   NSString *Str_Header = [NSString stringWithFormat:@"- CP Mess Project -"];
+  
   CCLabelTTF *Label1 = [CCLabelTTF labelWithString:Str_Header fontName:@"OLNEY-LI" fontSize:20];
   Label1.horizontalAlignment = CCVerticalTextAlignmentCenter; // align the text to the center
   [Label1 setAnchorPoint:ccp(0.5f, 1.0)]; // set the anchor point in the middle/bottom of the label
@@ -83,8 +84,11 @@
   // Add it to the background
   [Background addChild:Label2 z:2];
   
+  
+  
   // done
   return self;
+  
 }
 
 @end
